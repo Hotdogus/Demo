@@ -27,6 +27,7 @@ Has all the server-side code of the abilities, many of which I decided not to sh
 starterplayerscripts > AbilityClient.local.luau
 Has all the client-side of the abilities. Line 172 has the client-side of the cutscene, including the camera movements.
 
+'''
 --ORIGINAL CAMERA SCRIPT
 local RP = game:GetService('ReplicatedStorage')
 local TS = game:GetService('TweenService')
@@ -115,3 +116,4 @@ events:WaitForChild('Camera').OnClientEvent:Connect(function(target, returnTo, t
 		end
 	end
 end)
+'''
